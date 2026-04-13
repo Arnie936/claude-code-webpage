@@ -2,9 +2,9 @@ import { test, expect } from "@playwright/test";
 
 const SKOOL_URL = "https://www.skool.com/ai-mit-arnie-ki-revolution/about";
 const YOUTUBE_URL = "https://www.youtube.com/@Arnold-Oberleiter";
-const MAILTO = "mailto:arnio93@gmail.com";
+const MAILTO = "mailto:arnio931@gmail.com";
 const CONSULT_MAILTO =
-  "mailto:arnio93@gmail.com?subject=Inquiry:%20AI%20Consulting%20%26%20Automation";
+  "mailto:arnio931@gmail.com?subject=Inquiry:%20AI%20Consulting%20%26%20Automation";
 
 test.describe("Arnie AI landing page", () => {
   test.beforeEach(async ({ page }) => {
