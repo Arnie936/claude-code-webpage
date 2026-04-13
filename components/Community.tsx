@@ -19,7 +19,7 @@ export default function Community() {
         </div>
 
         <div className="order-1 md:order-2">
-          <p className="text-sm uppercase tracking-[0.25em] text-neon-purple">
+          <p className="text-sm uppercase tracking-[0.25em] text-amber-300">
             The Skool Community
           </p>
           <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">

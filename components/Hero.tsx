@@ -11,7 +11,7 @@ export default function Hero() {
           </span>
           <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight glow-text md:text-6xl">
             Scale your business with{" "}
-            <span className="bg-gradient-to-r from-neon-blue via-neon-purple to-neon-pink bg-clip-text text-transparent">
+            <span className="text-white">
               enterprise-grade AI
             </span>
           </h1>

@@ -3,7 +3,7 @@ export default function Services() {
     <section id="services" className="relative py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-16 max-w-2xl">
-          <p className="text-sm uppercase tracking-[0.25em] text-neon-blue">
+          <p className="text-sm uppercase tracking-[0.25em] text-cyan-300">
             What I do
           </p>
           <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
@@ -18,7 +18,7 @@ export default function Services() {
               <h3 className="text-2xl font-bold md:text-3xl">
                 Enterprise AI & Automation
               </h3>
-              <p className="mt-2 text-sm uppercase tracking-wider text-neon-blue">
+              <p className="mt-2 text-sm uppercase tracking-wider text-cyan-300">
                 For companies with €4 million+ revenue
               </p>
               <p className="mt-6 text-zinc-100">
@@ -41,7 +41,7 @@ export default function Services() {
               <h3 className="text-2xl font-bold md:text-3xl">
                 Workshops & Training
               </h3>
-              <p className="mt-2 text-sm uppercase tracking-wider text-neon-purple">
+              <p className="mt-2 text-sm uppercase tracking-wider text-amber-300">
                 Hands-on, production-first
               </p>
               <p className="mt-6 text-zinc-100">

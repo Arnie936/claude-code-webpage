@@ -15,7 +15,7 @@ export default function GrowthVideo() {
           className="grid grid-cols-1 items-center gap-12 md:grid-cols-2"
         >
           <div>
-            <p className="text-sm uppercase tracking-[0.25em] text-neon-blue">
+            <p className="text-sm uppercase tracking-[0.25em] text-cyan-300">
               Growth &amp; ROI
             </p>
             <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
