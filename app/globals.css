@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #05060a;
+}
+
+html, body {
+  background: var(--bg);
+  color: #f4f4f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-streaks {
+  background:
+    radial-gradient(1200px 500px at 20% -10%, rgba(74, 158, 255, 0.18), transparent 60%),
+    radial-gradient(900px 400px at 80% 10%, rgba(168, 85, 247, 0.18), transparent 60%),
+    linear-gradient(180deg, #05060a 0%, #05060a 100%);
+}
+
+.glow-text {
+  text-shadow: 0 0 30px rgba(74, 158, 255, 0.35), 0 0 60px rgba(168, 85, 247, 0.25);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full px-7 py-4 font-semibold tracking-wide text-white transition-all;
+  background: linear-gradient(90deg, #4a9eff, #a855f7);
+  box-shadow: 0 10px 40px -10px rgba(74, 158, 255, 0.6);
+}
+.btn-primary:hover { filter: brightness(1.1); transform: translateY(-1px); }
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 py-4 font-semibold tracking-wide text-white backdrop-blur transition-all;
+}
+.btn-secondary:hover { background: rgba(255,255,255,0.1); }
