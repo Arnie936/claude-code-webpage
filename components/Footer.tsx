@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 md:flex-row md:items-center">
         <div>
           <p className="text-lg font-bold">
-            <span className="bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
+            <span className="text-white">
               Arnie AI
             </span>
           </p>

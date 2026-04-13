@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-xl font-bold tracking-tight">
-          <span className="bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
+          <span className="text-white">
             Arnie AI
           </span>
         </Link>
