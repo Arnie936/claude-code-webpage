@@ -7,9 +7,13 @@
 }
 
 html, body {
-  background: var(--bg);
+  background: transparent;
   color: #f4f4f5;
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  background: var(--bg);
 }
 
 .bg-streaks {
@@ -21,6 +25,14 @@ html, body {
 
 .glow-text {
   text-shadow: 0 0 30px rgba(74, 158, 255, 0.35), 0 0 60px rgba(168, 85, 247, 0.25);
+}
+
+main h1, main h2, main h3, main p, main li, main span, main a {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85), 0 0 14px rgba(0, 0, 0, 0.6);
+}
+
+main h1, main h2 {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 18px rgba(0, 0, 0, 0.6));
 }
 
 .btn-primary {

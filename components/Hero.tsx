@@ -3,10 +3,10 @@ import { SKOOL_URL, MAILTO } from "@/lib/constants";
 
 export default function Hero() {
   return (
-    <section className="bg-streaks relative overflow-hidden">
+    <section className="relative overflow-hidden">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 py-24 md:grid-cols-2 md:py-32">
         <div>
-          <span className="inline-block rounded-full border border-white/15 bg-white/5 px-4 py-1 text-xs uppercase tracking-[0.2em] text-zinc-300">
+          <span className="inline-block rounded-full border border-white/15 bg-white/5 px-4 py-1 text-xs uppercase tracking-[0.2em] text-zinc-100">
             The AI Revolution is here
           </span>
           <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight glow-text md:text-6xl">
@@ -15,7 +15,7 @@ export default function Hero() {
               enterprise-grade AI
             </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-zinc-300 md:text-xl">
+          <p className="mt-6 max-w-xl text-lg text-zinc-100 md:text-xl">
             I build custom automations and intelligent systems for companies
             ready to 10x their output. From LLMs and Diffusion pipelines to n8n
             workflows — engineered to ship.

@@ -10,12 +10,12 @@ export default function Footer() {
               Arnie AI
             </span>
           </p>
-          <p className="mt-1 text-sm text-zinc-400">
+          <p className="mt-1 text-sm text-zinc-200">
             © {new Date().getFullYear()} Arnold Oberleiter. All rights reserved.
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center gap-6 text-sm text-zinc-300">
+        <div className="flex flex-wrap items-center gap-6 text-sm text-zinc-100">
           <a href={MAILTO} className="hover:text-white">{EMAIL}</a>
           <a
             href={YOUTUBE_URL}

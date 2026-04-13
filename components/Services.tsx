@@ -21,13 +21,13 @@ export default function Services() {
               <p className="mt-2 text-sm uppercase tracking-wider text-neon-blue">
                 For companies with €4 million+ revenue
               </p>
-              <p className="mt-6 text-zinc-300">
+              <p className="mt-6 text-zinc-100">
                 Custom-built AI systems and automations for operators who need
                 results, not prototypes. I work directly with founders and
                 leadership to identify the highest-ROI workflows and ship them
                 end-to-end.
               </p>
-              <ul className="mt-6 space-y-2 text-zinc-300">
+              <ul className="mt-6 space-y-2 text-zinc-100">
                 <li>• Internal agents & knowledge systems</li>
                 <li>• Pipeline automation with n8n</li>
                 <li>• Production-grade LLM integrations</li>
@@ -44,7 +44,7 @@ export default function Services() {
               <p className="mt-2 text-sm uppercase tracking-wider text-neon-purple">
                 Hands-on, production-first
               </p>
-              <p className="mt-6 text-zinc-300">
+              <p className="mt-6 text-zinc-100">
                 Level up your team or learn as a builder. Covering LLMs,
                 Diffusion models, n8n, Claude Code, and ComfyUI — every module
                 is built around real deliverables, not slides.

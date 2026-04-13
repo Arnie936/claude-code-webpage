@@ -4,7 +4,6 @@ import { SKOOL_URL } from "@/lib/constants";
 export default function Community() {
   return (
     <section id="community" className="relative overflow-hidden py-24 md:py-32">
-      <div className="absolute inset-0 -z-10 bg-streaks opacity-60" />
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
         <div className="order-2 md:order-1">
           <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-neon-purple/20 to-transparent blur-3xl" />
@@ -26,13 +25,13 @@ export default function Community() {
           <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
             Built for DIY AI operators
           </h2>
-          <p className="mt-6 text-lg text-zinc-300">
+          <p className="mt-6 text-lg text-zinc-100">
             Join a focused community of builders shipping real AI products.
             Weekly deep-dives, direct support from me, live build sessions, and
             a network that actually ships. Learn n8n, Claude Code, ComfyUI, and
             production LLM patterns — alongside people doing the same.
           </p>
-          <ul className="mt-6 space-y-2 text-zinc-300">
+          <ul className="mt-6 space-y-2 text-zinc-100">
             <li>• Direct support &amp; feedback from Arnie</li>
             <li>• Step-by-step playbooks and templates</li>
             <li>• Live workshops every week</li>

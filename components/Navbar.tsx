@@ -11,7 +11,7 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <div className="hidden items-center gap-8 text-sm text-zinc-300 md:flex">
+        <div className="hidden items-center gap-8 text-sm text-zinc-100 md:flex">
           <a href="#services" className="hover:text-white">Services</a>
           <a href="#services" className="hover:text-white">Workshops</a>
           <a href="#community" className="hover:text-white">Community</a>
@@ -23,7 +23,7 @@ export default function Navbar() {
             aria-label="YouTube"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-white/10 p-2 text-zinc-300 transition hover:border-white/30 hover:text-white"
+            className="rounded-full border border-white/10 p-2 text-zinc-100 transition hover:border-white/30 hover:text-white"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.5 12 3.5 12 3.5s-7.6 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.8.6 9.4.6 9.4.6s7.6 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z" />
